@@ -2,31 +2,45 @@
   font-family: Roboto;
 }
 .wrapper{
-  margin: auto;
-  width: 80%;
+margin: auto;
+width: 80%;
 }
   body{
     margin: 0;
 }
 .logo,.menu{
-  display: inline-block;
+display: inline-block;
 }
 .logo{
 width: 190px;
 height: 35px;
-background: url("img/logo.svg");
- }
+background: url('img/logo.svg');
+}
 
 .header{
   padding: 40px 0;
   display:flex;justify-content: space-between;
 }
 .menu{
-  display:flex;align-items: center;
+display: flex; align-items: center;
 }
 .menu__item{
-  padding: 0  13px;
+  position:relative;
+  margin-right:26px;
+  font:500 18px/21px Roboto,helvetica,sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu__item_active::after{
+position: absolute;
+display: block;
+content:'';
+left: 0;
+width: 100px;
+height: 3px;
+background: #0056EC;
 }
 .menu__item:last-child{
-  padding-right: 0
+margin-right:0;
 }
