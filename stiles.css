@@ -110,7 +110,6 @@ font: 18px/21px Roboto,arial,helvetica,sans-serif;
 .main__title-text_highlight{
   background: #ECF3FF;
 }
-
 @media (min-width: 1170px) {
 
 }
@@ -143,4 +142,5 @@ font:500 16px/19px Roboto,arial,helvetica,sans-serif;
 }
 .logo{
   text-indent: -9999px;
+}
 }
