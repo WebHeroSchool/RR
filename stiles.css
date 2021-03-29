@@ -16,6 +16,7 @@ display: inline-block;
 padding: 40px 0;
 padding-left: 44px;
 font:  24px/31px "pt_serifbold",arial,helvetica,sans-serif;
+margin-right: calc(50% - 28px/2 + 359px);
 }
 
 .logo__circle{
@@ -45,6 +46,7 @@ font:  24px/31px "pt_serifbold",arial,helvetica,sans-serif;
 }
 .menu{
 display: flex; align-items: center;
+margin-right:
 }
 .menu__item{
   position:relative;
